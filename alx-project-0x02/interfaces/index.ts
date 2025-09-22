@@ -16,3 +16,10 @@ export interface ButtonProps {
   // optionally any other props you need, e.g. className, disabled, etc.
   className?: string;
 }
+
+export interface PostProps {
+  id: number;
+  title: string;
+  body: string;
+  userId: number;
+}
