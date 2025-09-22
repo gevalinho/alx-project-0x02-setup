@@ -1,11 +1,4 @@
-import React from 'react'
-
-function interfaces() {
-  return (
-        <>
-        <div></div>
-        </>
-  )
+export interface CardProps{
+    title: string;
+    content: string;
 }
-
-export default interfaces
