@@ -24,7 +24,23 @@ export interface PostProps {
   userId: number;
 }
 
+
+
 export interface PostsPageProps {
   posts: PostProps[];
 }
 
+export interface UserProps {
+  id: number;
+  name: string;
+  email: string;
+  address: {
+    street: string;
+    suite: string;
+    city: string;
+  };
+}
+
+export interface UsersPageProps {
+  users: UserProps[];
+}
